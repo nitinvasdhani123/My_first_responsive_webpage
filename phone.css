@@ -1,0 +1,69 @@
+html
+{
+    margin:1px;
+}
+
+#navbar
+{
+    flex-direction: column;
+    align-items: center;
+    width: 103%;
+    margin: auto;
+}
+
+#navbar img
+{
+    width: 2rem;
+}
+
+#navbar ul li a
+{
+    font-size: 0.7rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+#home
+{
+    /* height: 300px; */
+    /* change here */
+    height: 350px;
+}
+
+#home h1
+{
+    font-size: 1.2rem;
+    margin-top: 80px;
+}
+
+#home p
+{
+    font-size: 0.9rem;
+}
+
+#home ul li a
+{
+    font-size: 0.7rem;
+    padding: auto;
+}
+
+#services
+{
+    flex-direction: column;
+}
+
+#services .box
+{
+    width: auto;
+    margin: auto;
+}
+
+.clients
+{
+    flex-wrap: wrap;
+} 
+
+.clients img
+{
+    width: 4rem;
+}
